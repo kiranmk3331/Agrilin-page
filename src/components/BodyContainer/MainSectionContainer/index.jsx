@@ -3,6 +3,7 @@ import ImageWeather from "./ImageWeather";
 import WelcomeContainer from "./WelcomeContainer";
 import OrderStatus from "./OrderStatus";
 import StatusSummary from "./StatusSummary";
+import Footer from "./Footer";
 
 const MainSectionContainer = () => {
   return (
@@ -11,6 +12,7 @@ const MainSectionContainer = () => {
       <WelcomeContainer />
       <OrderStatus />
       <StatusSummary />
+      <Footer />
     </div>
   );
 };
