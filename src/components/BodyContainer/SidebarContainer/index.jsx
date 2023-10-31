@@ -6,7 +6,7 @@ import UpgradeConatainer from "./UpgradeConatainer";
 
 const SidebarContainer = () => {
   return (
-    <div className="hidden md:flex bg-white mt-1 shadow-sm flex-col pl-8 h-[105vh]">
+    <div className="hidden md:flex bg-white mt-1 shadow-sm flex-col pl-8 h-[100%]">
       <MainMenu />
       <Additional />
       <Insight />

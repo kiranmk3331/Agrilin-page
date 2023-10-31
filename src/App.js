@@ -6,7 +6,7 @@ import BackgroundImage from "./assets/background-image.png";
 function App() {
   return (
     <div
-      className="App h-[100vh] w-full"
+      className="App h-[100%] w-full"
       style={{ backgroundImage: `url(${BackgroundImage})` }}
     >
       <NavContainer />

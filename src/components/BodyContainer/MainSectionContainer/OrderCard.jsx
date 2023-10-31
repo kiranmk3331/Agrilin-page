@@ -20,7 +20,7 @@ const OrderCard = () => {
     { name: "Dispute", icon: DisputeIcon, value: "12,840", color: "#FFB600" },
   ];
   return (
-    <ul className="mt-4 flex flex-col md:flex-row gap-10 w-full">
+    <ul className="mt-6 flex flex-col md:flex-row gap-10 w-full">
       {orderStatusData.map((order, index) => (
         <OrderList key={index} order={order} />
       ))}

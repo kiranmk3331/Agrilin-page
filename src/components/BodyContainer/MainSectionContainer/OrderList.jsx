@@ -3,7 +3,7 @@ import ThreeDot from "./assets/threedot.svg";
 
 const OrderList = ({ order }) => {
   return (
-    <li className="bg-white first:bg-[#E3FFD8] py-4 shadow flex flex-col items-center rounded-md w-full">
+    <li className="bg-white first:bg-[#F7FFF4] py-4 shadow flex flex-col items-center rounded-md w-full">
       <div className="flex justify-end w-full pr-2">
         <img src={ThreeDot} alt="" />
       </div>

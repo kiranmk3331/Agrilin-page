@@ -3,7 +3,7 @@ import RightArrow from "./assets/right.svg";
 
 const UpgradeConatainer = () => {
   return (
-    <div className="mt-4 flex flex-col items-center bg-[#A8CE99] gap-3 p-2 rounded-md w-[70%] mx-auto relative right-8">
+    <div className="mt-4 flex flex-col items-center bg-[#d5eacd] gap-3 p-4 rounded-md w-[70%] mx-auto relative right-8">
       <p className="font-medium text-sm">Upgrade your plan</p>
       <div className="flex justify-around w-full">
         <p className="text-sm">
