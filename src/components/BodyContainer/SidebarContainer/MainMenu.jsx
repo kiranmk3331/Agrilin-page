@@ -9,18 +9,18 @@ import MenuList from "./MenuList";
 
 const MainMenu = () => {
   const menuContents = [
-    { name: "Dashboard", icon: DashboardIcon },
-    { name: "Market Place", icon: MarketIcon },
-    { name: "Service", icon: BuyIcon },
-    { name: "My Order", icon: DocumentIcon },
-    { name: "Create trade", icon: CreateIcon },
-    { name: "Profile info", icon: ProfileIcon },
+    { name: "Dashboard", icon: DashboardIcon, showArrow: false },
+    { name: "Market Place", icon: MarketIcon, showArrow: true },
+    { name: "Service", icon: BuyIcon, showArrow: true },
+    { name: "My Order", icon: DocumentIcon, showArrow: true },
+    { name: "Create trade", icon: CreateIcon, showArrow: true },
+    { name: "Profile info", icon: ProfileIcon, showArrow: false },
   ];
 
   return (
     <div className="p-2">
       <h2 className="font-poppins">Main Menu</h2>
-      <ul className="flex flex-col gap-4 pt-4">
+      <ul className="flex flex-col gap-7 pt-4">
         {menuContents.map((contents, index) => (
           <MenuList key={index} menu={contents} />
         ))}
