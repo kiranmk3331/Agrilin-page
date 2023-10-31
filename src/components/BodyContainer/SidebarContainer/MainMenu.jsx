@@ -19,8 +19,8 @@ const MainMenu = () => {
 
   return (
     <div className="p-2">
-      <h2 className="font-medium">Main Menu</h2>
-      <ul className="flex flex-col gap-9 pt-4">
+      <h2 className="font-poppins font-medium">Main Menu</h2>
+      <ul className="flex flex-col gap-9 pt-4 font-lexend font-normal">
         {menuContents.map((contents, index) => (
           <MenuList key={index} menu={contents} />
         ))}

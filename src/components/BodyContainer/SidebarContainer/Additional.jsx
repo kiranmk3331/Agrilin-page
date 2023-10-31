@@ -12,8 +12,8 @@ const Additional = () => {
   ];
   return (
     <div className="p-2 mt-2">
-      <h2 className="font-medium">Additional</h2>
-      <ul className="flex flex-col gap-9 pt-4">
+      <h2 className="font-poppins font-medium">Additional</h2>
+      <ul className="flex flex-col gap-9 pt-4  font-lexend font-normal">
         {additionalData.map((contents, index) => (
           <AdditionalList key={index} additional={contents} index={index} />
         ))}

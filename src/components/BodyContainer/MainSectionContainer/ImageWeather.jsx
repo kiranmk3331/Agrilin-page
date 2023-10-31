@@ -4,7 +4,7 @@ import WeatherIcon from "./assets/fluent_weather-hail-day-48-regular.svg";
 
 const ImageWeather = () => {
   return (
-    <div className="flex gap-4 flex-col md:flex-row">
+    <div className="flex gap-4 flex-col md:flex-row font-lexend">
       <img src={Picture} alt="" className=" rounded-md w-full md:w-[70%] " />
 
       <div className="flex flex-col w-full md:w-[30%] bg-white  shadow p-4 justify-center rounded-md ">
@@ -15,7 +15,7 @@ const ImageWeather = () => {
         </div>
         <div className="flex justify-between items-center">
           <div>
-            <p className="font-medium">Partly cloudy</p>
+            <p className="font-bold">Partly cloudy</p>
             <p className="text-[#979797] text-xs">
               Kochi, Kerala Wednesday, 4:00 pm
             </p>

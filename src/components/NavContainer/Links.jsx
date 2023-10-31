@@ -6,7 +6,7 @@ import DownArrow from "./assets/Caret down.svg";
 
 const Links = () => {
   return (
-    <div className="flex w-full  md:justify-end justify-around">
+    <div className="flex w-full  md:justify-end justify-around font-lexend">
       <div className="flex gap-8 items-center p-4 justify-around md:justify-end">
         <div className="flex items bg-[#00A86B] rounded-md p-2 items-center gap-2">
           <img src={EditIcon} alt="" className="w-4 h-4" />

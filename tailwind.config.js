@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        lexend: ["Lexend", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },
