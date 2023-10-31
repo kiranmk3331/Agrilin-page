@@ -4,7 +4,7 @@ import NavContainer from "./components/NavContainer";
 
 function App() {
   return (
-    <div className="App bg-[#FCFCFC99] h-full w-full">
+    <div className="App bg-[rgba(252,252,252,0.6)] h-full w-full">
       <NavContainer />
       <div className="grid grid-cols-5">
         <div className="col-span-1">

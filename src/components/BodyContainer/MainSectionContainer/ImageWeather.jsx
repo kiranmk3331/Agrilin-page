@@ -4,7 +4,7 @@ import WeatherIcon from "./assets/fluent_weather-hail-day-48-regular.svg";
 
 const ImageWeather = () => {
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-3 gap-8">
       <img src={Picture} alt="" className="col-span-2 rounded-md" />
 
       <div className="flex flex-col col-span-1 bg-white  shadow p-4 relative right-24 justify-center rounded-md">
@@ -13,7 +13,7 @@ const ImageWeather = () => {
           <h1 className="text-4xl font-medium">29</h1>
           <p className="text-xs font-medium ">°C I°F</p>
         </div>
-        <div className="flex justify-evenly items-center">
+        <div className="flex justify-between items-center">
           <div>
             <p className="font-medium">Partly cloudy</p>
             <p className="text-[#979797] text-xs">
