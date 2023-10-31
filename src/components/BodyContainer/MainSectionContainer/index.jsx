@@ -2,6 +2,7 @@ import React from "react";
 import ImageWeather from "./ImageWeather";
 import WelcomeContainer from "./WelcomeContainer";
 import OrderStatus from "./OrderStatus";
+import StatusSummary from "./StatusSummary";
 
 const MainSectionContainer = () => {
   return (
@@ -9,6 +10,7 @@ const MainSectionContainer = () => {
       <ImageWeather />
       <WelcomeContainer />
       <OrderStatus />
+      <StatusSummary />
     </div>
   );
 };
