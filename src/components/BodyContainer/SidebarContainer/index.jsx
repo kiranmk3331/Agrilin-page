@@ -3,7 +3,7 @@ import MainMenu from "./MainMenu";
 
 const SidebarContainer = () => {
   return (
-    <div className="bg-white mt-1 shadow-sm flex flex-col pl-8">
+    <div className="hidden md:flex bg-white mt-1 shadow-sm flex-col pl-8">
       <MainMenu />
     </div>
   );

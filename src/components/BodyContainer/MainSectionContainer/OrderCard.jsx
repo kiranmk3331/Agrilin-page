@@ -8,19 +8,19 @@ import OrderList from "./OrderList";
 
 const OrderCard = () => {
   const orderStatusData = [
-    { name: "Pending", icon: EyeIcon, value: "12,840", color: "00A86B" },
-    { name: "Open", icon: EditIcon, value: "12,840", color: "38B000" },
-    { name: "Closed", icon: CrossIcon, value: "12,840", color: "E84A4D" },
+    { name: "Pending", icon: EyeIcon, value: "12,840", color: "#00A86B" },
+    { name: "Open", icon: EditIcon, value: "12,840", color: "#38B000" },
+    { name: "Closed", icon: CrossIcon, value: "12,840", color: "#E84A4D" },
     {
       name: "Cancelled",
       icon: CancelledIcon,
       value: "12,840",
-      color: "FD6A3C",
+      color: "#FD6A3C",
     },
-    { name: "Dispute", icon: DisputeIcon, value: "12,840", color: "FFB600" },
+    { name: "Dispute", icon: DisputeIcon, value: "12,840", color: "#FFB600" },
   ];
   return (
-    <ul className="mt-4 grid grid-cols-5 gap-8">
+    <ul className="mt-4 flex flex-col md:flex-row gap-10 w-full">
       {orderStatusData.map((order, index) => (
         <OrderList key={index} order={order} />
       ))}

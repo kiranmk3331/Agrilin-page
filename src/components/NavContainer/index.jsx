@@ -4,7 +4,7 @@ import Links from "./Links";
 
 const NavContainer = () => {
   return (
-    <div className="w-full bg-white shadow grid grid-cols-2 items-center z-10">
+    <div className="w-full bg-white shadow flex flex-col md:flex-row justify-around items-center">
       <Logo />
       <Links />
     </div>

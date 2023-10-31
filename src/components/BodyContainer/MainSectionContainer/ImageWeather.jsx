@@ -4,10 +4,10 @@ import WeatherIcon from "./assets/fluent_weather-hail-day-48-regular.svg";
 
 const ImageWeather = () => {
   return (
-    <div className="grid grid-cols-3 gap-8">
-      <img src={Picture} alt="" className="col-span-2 rounded-md" />
+    <div className="flex gap-4 flex-col md:flex-row">
+      <img src={Picture} alt="" className=" rounded-md w-full md:w-[70%] " />
 
-      <div className="flex flex-col col-span-1 bg-white  shadow p-4 relative right-24 justify-center rounded-md">
+      <div className="flex flex-col w-full md:w-[30%] bg-white  shadow p-4 justify-center rounded-md ">
         <div className="flex items-center gap-4">
           <img src={WeatherIcon} alt="" />
           <h1 className="text-4xl font-medium">29</h1>
