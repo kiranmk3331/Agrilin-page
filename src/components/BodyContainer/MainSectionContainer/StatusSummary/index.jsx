@@ -1,6 +1,5 @@
 import React from "react";
 import DownArrow from "./assets/Caret down.svg";
-import TwoArrow from "./assets/Icontwoarrow.svg";
 import Header from "./Header";
 import HeaderValue from "./HeaderValue";
 
