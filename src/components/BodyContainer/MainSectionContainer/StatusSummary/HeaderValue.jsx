@@ -5,25 +5,25 @@ import RightArrow from "./assets/Iconright.svg";
 
 const HeaderValue = () => {
   return (
-    <div className="bg-[#d4e8d9] rounded-md flex justify-between mt-4  p-4">
-      <div className="">
+    <div className="bg-[#d4e8d9] rounded-md flex justify-between mt-4  p-4 overflow-x-scroll md:overflow-x-auto">
+      <div className="md:min-w-fit min-w-[200px]">
         <p className="text-[#242426] text-sm">01.02.2021</p>
         <p className="text-[#6D7D78] text-xs">ID 0001894</p>
       </div>
-      <div className="ml-6">
+      <div className="ml-6 md:min-w-fit min-w-[200px]">
         <p className="text-[#242426] text-sm">Cumin Seeds (Whole Jeera)</p>
         <p className="text-[#6D7D78] text-xs">Volume : 70 kG . Price INR 66</p>
       </div>
 
-      <div className="flex gap-2 items-center">
+      <div className="flex gap-2 items-center md:min-w-fit min-w-[200px]">
         <img src={Tick} alt="" />
         <p className="text-[#6D7D78] text-sm">Active</p>
       </div>
-      <div className="flex gap-2 items-center">
+      <div className="flex gap-2 items-center md:min-w-fit min-w-[200px]">
         <img src={Doc} alt="" className="w-6 h-6" />
         <p className="text-[#6D7D78] text-sm">Download PDF</p>
       </div>
-      <div className="flex gap-2  items-center">
+      <div className="flex gap-2  items-center md:min-w-fit min-w-[200px]">
         <p className="text-[#85A69B] text-sm">VIEW ORDER</p>
         <img src={RightArrow} alt="" />
       </div>
